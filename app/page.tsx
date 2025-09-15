@@ -30,6 +30,12 @@ export default function Page() {
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
+          <div className="hidden md:flex p-2">
+            <Image src="hero-desktop.png" alt="Hero Image" width={400} height={300} />
+          </div>
+          <div className="flex md:hidden p-2">
+            <Image src="hero-mobile.png" alt="Hero Image" width={300} height={200} />
+          </div>
           
         </div>
       </div>
